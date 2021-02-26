@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A83025925E9A20900B056D6 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A83025825E9A20900B056D6 /* WeSplitApp.swift */; };
-		4A83025B25E9A20900B056D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A83025A25E9A20900B056D6 /* ContentView.swift */; };
-		4A83025D25E9A20A00B056D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A83025C25E9A20A00B056D6 /* Assets.xcassets */; };
-		4A83026025E9A20A00B056D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A83025F25E9A20A00B056D6 /* Preview Assets.xcassets */; };
+		4A83027625E9A6E300B056D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A83027525E9A6E300B056D6 /* AppDelegate.swift */; };
+		4A83027825E9A6E300B056D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A83027725E9A6E300B056D6 /* SceneDelegate.swift */; };
+		4A83027A25E9A6E300B056D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A83027925E9A6E300B056D6 /* ContentView.swift */; };
+		4A83027C25E9A6E500B056D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A83027B25E9A6E500B056D6 /* Assets.xcassets */; };
+		4A83027F25E9A6E500B056D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A83027E25E9A6E500B056D6 /* Preview Assets.xcassets */; };
+		4A83028225E9A6E500B056D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A83028025E9A6E500B056D6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A83025525E9A20900B056D6 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A83025825E9A20900B056D6 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
-		4A83025A25E9A20900B056D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4A83025C25E9A20A00B056D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4A83025F25E9A20A00B056D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4A83026125E9A20A00B056D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A83027225E9A6E300B056D6 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A83027525E9A6E300B056D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A83027725E9A6E300B056D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A83027925E9A6E300B056D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A83027B25E9A6E500B056D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A83027E25E9A6E500B056D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A83028125E9A6E500B056D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A83028325E9A6E500B056D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4A83025225E9A20900B056D6 /* Frameworks */ = {
+		4A83026F25E9A6E300B056D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A83024C25E9A20900B056D6 = {
+		4A83026925E9A6E300B056D6 = {
 			isa = PBXGroup;
 			children = (
-				4A83025725E9A20900B056D6 /* WeSplit */,
-				4A83025625E9A20900B056D6 /* Products */,
+				4A83027425E9A6E300B056D6 /* WeSplit */,
+				4A83027325E9A6E300B056D6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4A83025625E9A20900B056D6 /* Products */ = {
+		4A83027325E9A6E300B056D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A83025525E9A20900B056D6 /* WeSplit.app */,
+				4A83027225E9A6E300B056D6 /* WeSplit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A83025725E9A20900B056D6 /* WeSplit */ = {
+		4A83027425E9A6E300B056D6 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
-				4A83025825E9A20900B056D6 /* WeSplitApp.swift */,
-				4A83025A25E9A20900B056D6 /* ContentView.swift */,
-				4A83025C25E9A20A00B056D6 /* Assets.xcassets */,
-				4A83026125E9A20A00B056D6 /* Info.plist */,
-				4A83025E25E9A20A00B056D6 /* Preview Content */,
+				4A83027525E9A6E300B056D6 /* AppDelegate.swift */,
+				4A83027725E9A6E300B056D6 /* SceneDelegate.swift */,
+				4A83027925E9A6E300B056D6 /* ContentView.swift */,
+				4A83027B25E9A6E500B056D6 /* Assets.xcassets */,
+				4A83028025E9A6E500B056D6 /* LaunchScreen.storyboard */,
+				4A83028325E9A6E500B056D6 /* Info.plist */,
+				4A83027D25E9A6E500B056D6 /* Preview Content */,
 			);
 			path = WeSplit;
 			sourceTree = "<group>";
 		};
-		4A83025E25E9A20A00B056D6 /* Preview Content */ = {
+		4A83027D25E9A6E500B056D6 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4A83025F25E9A20A00B056D6 /* Preview Assets.xcassets */,
+				4A83027E25E9A6E500B056D6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,13 +78,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A83025425E9A20900B056D6 /* WeSplit */ = {
+		4A83027125E9A6E300B056D6 /* WeSplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A83026425E9A20A00B056D6 /* Build configuration list for PBXNativeTarget "WeSplit" */;
+			buildConfigurationList = 4A83028625E9A6E500B056D6 /* Build configuration list for PBXNativeTarget "WeSplit" */;
 			buildPhases = (
-				4A83025125E9A20900B056D6 /* Sources */,
-				4A83025225E9A20900B056D6 /* Frameworks */,
-				4A83025325E9A20900B056D6 /* Resources */,
+				4A83026E25E9A6E300B056D6 /* Sources */,
+				4A83026F25E9A6E300B056D6 /* Frameworks */,
+				4A83027025E9A6E300B056D6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -86,24 +92,24 @@
 			);
 			name = WeSplit;
 			productName = WeSplit;
-			productReference = 4A83025525E9A20900B056D6 /* WeSplit.app */;
+			productReference = 4A83027225E9A6E300B056D6 /* WeSplit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4A83024D25E9A20900B056D6 /* Project object */ = {
+		4A83026A25E9A6E300B056D6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					4A83025425E9A20900B056D6 = {
+					4A83027125E9A6E300B056D6 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 4A83025025E9A20900B056D6 /* Build configuration list for PBXProject "WeSplit" */;
+			buildConfigurationList = 4A83026D25E9A6E300B056D6 /* Build configuration list for PBXProject "WeSplit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +117,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 4A83024C25E9A20900B056D6;
-			productRefGroup = 4A83025625E9A20900B056D6 /* Products */;
+			mainGroup = 4A83026925E9A6E300B056D6;
+			productRefGroup = 4A83027325E9A6E300B056D6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A83025425E9A20900B056D6 /* WeSplit */,
+				4A83027125E9A6E300B056D6 /* WeSplit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4A83025325E9A20900B056D6 /* Resources */ = {
+		4A83027025E9A6E300B056D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A83026025E9A20A00B056D6 /* Preview Assets.xcassets in Resources */,
-				4A83025D25E9A20A00B056D6 /* Assets.xcassets in Resources */,
+				4A83028225E9A6E500B056D6 /* LaunchScreen.storyboard in Resources */,
+				4A83027F25E9A6E500B056D6 /* Preview Assets.xcassets in Resources */,
+				4A83027C25E9A6E500B056D6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4A83025125E9A20900B056D6 /* Sources */ = {
+		4A83026E25E9A6E300B056D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A83025B25E9A20900B056D6 /* ContentView.swift in Sources */,
-				4A83025925E9A20900B056D6 /* WeSplitApp.swift in Sources */,
+				4A83027625E9A6E300B056D6 /* AppDelegate.swift in Sources */,
+				4A83027825E9A6E300B056D6 /* SceneDelegate.swift in Sources */,
+				4A83027A25E9A6E300B056D6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		4A83028025E9A6E500B056D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A83028125E9A6E500B056D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		4A83026225E9A20A00B056D6 /* Debug */ = {
+		4A83028425E9A6E500B056D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		4A83026325E9A20A00B056D6 /* Release */ = {
+		4A83028525E9A6E500B056D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +281,7 @@
 			};
 			name = Release;
 		};
-		4A83026525E9A20A00B056D6 /* Debug */ = {
+		4A83028725E9A6E500B056D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -271,7 +290,6 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WeSplit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -283,7 +301,7 @@
 			};
 			name = Debug;
 		};
-		4A83026625E9A20A00B056D6 /* Release */ = {
+		4A83028825E9A6E500B056D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -292,7 +310,6 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WeSplit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,25 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A83025025E9A20900B056D6 /* Build configuration list for PBXProject "WeSplit" */ = {
+		4A83026D25E9A6E300B056D6 /* Build configuration list for PBXProject "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A83026225E9A20A00B056D6 /* Debug */,
-				4A83026325E9A20A00B056D6 /* Release */,
+				4A83028425E9A6E500B056D6 /* Debug */,
+				4A83028525E9A6E500B056D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A83026425E9A20A00B056D6 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
+		4A83028625E9A6E500B056D6 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A83026525E9A20A00B056D6 /* Debug */,
-				4A83026625E9A20A00B056D6 /* Release */,
+				4A83028725E9A6E500B056D6 /* Debug */,
+				4A83028825E9A6E500B056D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4A83024D25E9A20900B056D6 /* Project object */;
+	rootObject = 4A83026A25E9A6E300B056D6 /* Project object */;
 }
