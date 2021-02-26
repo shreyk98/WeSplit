@@ -9,29 +9,14 @@ import SwiftUI
 
 //Views are a function of their state!
 struct ContentView: View {
+    /// State: PropertyWrapper to store properties changed by SwiftUI (make these private!)
+    @State private var number: Int = 0
+
     /// some: same kind of view has to be returned here, cant change type of view returned
     var body: some View {
-        NavigationView {
-            Form {
-                Section {
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                }
-
-                Section {
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                }
-            }
-            .navigationBarTitle("Title")
+        Button("My Button: \(number)") {
+            print("YAY")
+            number += 1
         }
     }
 }
