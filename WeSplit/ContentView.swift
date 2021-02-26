@@ -10,14 +10,20 @@ import SwiftUI
 //Views are a function of their state!
 struct ContentView: View {
     /// State: PropertyWrapper to store properties changed by SwiftUI (make these private!)
-    @State var userInput: String = ""
+    @State private var number: Int = 0
+    let people = ["Shrey", "James", "Sunil", "Pravin", "Navneet"]
 
     /// some: same kind of view has to be returned here, cant change type of view returned
     var body: some View {
-        Form {
-            ///$: two way binding. @State allows to modify a property, $ allows for UI to write to property
-            TextField("Enter name:", text: $userInput)
-            Text("Input: \(userInput)")
+        VStack {
+            Picker("Select something: ", selection: $number) {
+                ForEach(0 ..< 5) {
+                    Text("You selected: \($0)")
+                }
+
+            }
+
+            Text("Input: \(people[number])")
         }
     }
 }
