@@ -7,10 +7,32 @@
 
 import SwiftUI
 
+//Views are a function of their state!
 struct ContentView: View {
+    /// some: same kind of view has to be returned here, cant change type of view returned
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            Form {
+                Section {
+                    Text("Hello, world!")
+                    Text("Hello, world!")
+                    Text("Hello, world!")
+                    Text("Hello, world!")
+                    Text("Hello, world!")
+                    Text("Hello, world!")
+                }
+
+                Section {
+                    Text("Hello, world!")
+                    Text("Hello, world!")
+                    Text("Hello, world!")
+                    Text("Hello, world!")
+                    Text("Hello, world!")
+                    Text("Hello, world!")
+                }
+            }
+            .navigationBarTitle("Title")
+        }
     }
 }
 
